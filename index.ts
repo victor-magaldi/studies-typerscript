@@ -1,4 +1,1 @@
-function great(){
-   return "teste"
-}
-console.log(great())
+const Victor = 's';

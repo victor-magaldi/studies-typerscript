@@ -1,0 +1,6 @@
+{
+	"code-runner.executorMap": {
+		// fazendo essa config,conseguimos rodar o ts com code runner 
+		"typescript": "npx ts-node --files --transpile-only",
+	}
+}

@@ -25,5 +25,5 @@ function soma(x: number, y: number): number {
    return x + y
 }
 // ou
-const soma: (a: number, b: number) => number = (a, b) => a + b
+const soma2: (a: number, b: number) => number = (a, b) => a + b
 const result = soma(1, 2)

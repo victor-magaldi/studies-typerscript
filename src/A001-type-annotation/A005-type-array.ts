@@ -18,6 +18,12 @@ const resultconcat = concatString("Victor", " de", " Souza ")
 const resultUpper = toUpperCase("Victor", " de", " Souza ")
 
 
+// arrays imutáveis
+const ar1:readonly string[]= ["rest","a0","b"]
+const ar2: ReadonlyArray<string>= ["rest","a0","b"]
+
+
+
 
 console.log(resultMult)
 console.log(resultconcat)

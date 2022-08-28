@@ -16,5 +16,5 @@ input.value = 'teste';
 input.focus();
 
 //type-assertion só pode ser usado para subtipos , exemplo não posso transformar um elemento html em number
-const body4 = document.querySelector('body') as Number;
-body4.style.background = 'blue';
+// ex: document.querySelector('body') as Number
+const body4 = (document.querySelector('body') as unknown) as number;
